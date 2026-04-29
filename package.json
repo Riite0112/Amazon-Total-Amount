@@ -6,7 +6,7 @@
   "description": "Amazon.co.jp order history annual total calculator.",
   "scripts": {
     "build": "node tools/build-bookmarklet.mjs",
-    "check": "node --check src/amazon-annual-total.js"
+    "check": "node --check src/amazon-annual-total.js && node --check extension/content.js"
   },
   "license": "UNLICENSED"
 }

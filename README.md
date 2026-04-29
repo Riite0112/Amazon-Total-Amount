@@ -4,6 +4,17 @@ Amazon.co.jp の注文履歴ページから、年別の購入合計額をブラ�
 
 ## 使い方
 
+### Chrome拡張機能として使う
+
+1. Chrome または Edge で `chrome://extensions` を開く
+2. 「デベロッパーモード」をONにする
+3. 「パッケージ化されていない拡張機能を読み込む」を押す
+4. このリポジトリの `extension` フォルダを選ぶ
+5. Amazon.co.jp の注文履歴で対象年を開く
+6. 右上の `Amazon Total Amount` パネルから「集計開始」を押す
+
+### Consoleに貼って使う
+
 1. Amazon.co.jp の注文履歴で対象年を開く
 2. ブラウザの開発者ツールを開く
 3. Console に `src/amazon-annual-total.js` の中身を貼って実行する

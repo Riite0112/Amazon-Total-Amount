@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Total Amount",
+  "version": "0.1.0",
+  "description": "Amazon.co.jp order history annual total calculator.",
+  "action": {
+    "default_title": "Amazon Total Amount"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.amazon.co.jp/your-orders/*"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://www.amazon.co.jp/*"
+  ]
+}
