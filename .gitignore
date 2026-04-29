@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep an accidentally nested/local clone out of this standalone project.
+Amazon Total Amount/
